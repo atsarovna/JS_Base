@@ -1,0 +1,36 @@
+@font-face{
+	font-family: 'Sunday'; 
+	src: url(./fonts/cd2f1-36d91_sunday.ttf); 
+}
+body{
+    background-color: #8dc0f3;
+    width: 800px;
+    margin: 0 auto;
+}
+h1{
+    color: rgb(17, 6, 101);
+}
+h2{
+    color: rgb(4, 44, 28);
+}
+a{
+    color: rgb(205, 46, 22);
+}
+a:hover {
+    color: #d1f360; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+   }
+img{
+    width: 500px;
+    border: 5px solid rgb(180, 167, 239);
+    margin-left: 50px;
+}
+.big_text{
+    font-size: 1.5rem;
+}
+.square_markers{
+    list-style-type: square;
+}
+.font{
+    font-family: 'Sunday', sans-serif; 
+}
